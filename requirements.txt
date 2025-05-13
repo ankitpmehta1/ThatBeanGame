@@ -1,6 +1,6 @@
 flask==0.12.2
 flask-sockets==0.2.1
 flask-socketio==2.9.2
-gevent==1.2.2
+gevent==22.10.2
 gevent-websocket==0.10.1
 jsonpatch==1.16

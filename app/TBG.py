@@ -11,6 +11,9 @@ from flask_socketio import SocketIO, join_room
 from player import Player
 from game import Game
 import util
+import os
+
+CLIENT_ORIGIN = os.environ.get("CLIENT_ORIGIN", "*")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
